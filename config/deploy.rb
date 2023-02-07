@@ -1,7 +1,7 @@
 set :application, 'demo_app'
 set :repo_url, 'git@github.com:anil-rathod11/demo_app.git' # Edit this to match your repository
 set :branch, :main
-set :deploy_to, '/home/deploy/demo_app'
+set :deploy_to, '/home/ubuntu/demo_app'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
